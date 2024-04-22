@@ -121,9 +121,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # path to where static files are copied for deployment (eg, for heroku)
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # location of static files in local development: https://learndjango.com/tutorials/django-favicon-tutorial
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'assets'),]
 
 MEDIA_ROOT = (
     BASE_DIR
